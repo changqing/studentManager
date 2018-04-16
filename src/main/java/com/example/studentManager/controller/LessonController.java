@@ -29,7 +29,7 @@ public class LessonController {
 	//查询教师的课程
 	@RequestMapping("teacher/list")
 	public String list(HttpSession session, Model model) {
-		Long tid = (Long) session.getAttribute("uid");
+		Long tid = Long.valueOf((int) session.getAttribute("uid"));
 		Iterable<Lesson> list = lessonDao.findAllByTid(tid);
 		model.addAttribute("list", list);
 		return "lesson/list";

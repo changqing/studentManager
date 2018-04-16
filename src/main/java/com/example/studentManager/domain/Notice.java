@@ -7,7 +7,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 @Entity
-@Table(name="notice")
+@Table(name="t_notice")
 @SuppressWarnings("serial")
 public class Notice implements Serializable {
 	

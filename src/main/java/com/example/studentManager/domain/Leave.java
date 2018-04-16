@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.io.Serializable;
 
 @Entity
-@Table(name="leaves")
+@Table(name="t_leave")
 @SuppressWarnings("serial")
 public class Leave implements Serializable {
 	

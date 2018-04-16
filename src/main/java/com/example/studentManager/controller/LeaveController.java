@@ -9,6 +9,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpSession;
+import java.util.List;
 import java.util.Optional;
 
 
@@ -31,7 +32,7 @@ public class LeaveController {
 	@RequestMapping("stu/list")
 	public String stuList(HttpSession session, Model model) {
 		Student student = (Student) session.getAttribute("loginUser");
-		Optional<Leave> list = leaveDao.findById(student.getId());
+		Iterable<Leave> list = leaveDao.findAllBySid(student.getId());
 		model.addAttribute("list", list);
 		return "leave/stuList";
 	}
