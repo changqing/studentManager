@@ -66,10 +66,10 @@
 							<td width="15%">
 								<c:if test="${s.status == '0' }">
 									<a href="${pageContext.request.contextPath}/leave/check?id=${s.id }&status=1" title="批准" style="margin-left: 20px;">
-										<img src="${pageContext.request.contextPath}/style/images/check_ok.png" border="0" style="CURSOR: hand;margin-top: -6px;">
+										<img src="images/check_ok.png" border="0" style="CURSOR: hand;margin-top: -6px;">
 									</a>
 									<a href="${pageContext.request.contextPath}/leave/check?id=${s.id }&status=2" title="不批准" style="margin-left: 20px;">
-										<img src="${pageContext.request.contextPath}/style/images/delete.png" border="0" style="CURSOR: hand;margin-top: -6px;">
+										<img src="images/delete.png" border="0" style="CURSOR: hand;margin-top: -6px;">
 									</a>
 								</c:if>
 							</td>
@@ -80,9 +80,9 @@
 	</div>
   </body>
   
-  <script type="text/javascript" src="${pageContext.request.contextPath}/style/js/jquery-1.9.0.min.js"></script>
-  <script type="text/javascript" src="${pageContext.request.contextPath}/style/js/function.js"></script>
-  <script type="text/javascript" src="${pageContext.request.contextPath}/style/js/jquery.blockUI.js"></script>
+  <script type="text/javascript" src="webjars/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="css/style/js/function.js"></script>
+  <script type="text/javascript" src="css/style/js/jquery.blockUI.js"></script>
   <script type="text/javascript">
   
   	$(function(){

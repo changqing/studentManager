@@ -1,28 +1,14 @@
 <%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <!DOCTYPE html>
 	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>学生信息管理系统</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Template by FreeHTML5.co" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="favicon.ico">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="${pageContext.request.contextPath}/css/bootstrap.min.css">
-	<link rel="stylesheet" href="${pageContext.request.contextPath}/css/animate.css">
-	<link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css">
+	<link rel="stylesheet" href="webjars/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href="css/animate.css">
+	<link type="text/css" rel="stylesheet" href="css/style.css">
 	<!-- Modernizr JS -->
 	<%--<script src="${pageContext.request.contextPath }/js/modernizr-2.6.2.min.js"></script>--%>
 	</head>
@@ -72,16 +58,12 @@
 			</div>
 		</div>
 	
-<%--	<!-- jQuery -->
-	<script src="static/css/style/js/jquery.min.js"></script>
+
+	<script src="webjars/jquery/1.9.1/jquery.min.js"></script>
 	<!-- Bootstrap -->
-	<script src="static/css/style/js/bootstrap.min.js"></script>
+	<script src="webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<!-- Placeholder -->
-	<script src="js/jquery.placeholder.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Main JS -->
-	<script src="js/main.js"></script>--%>
+
 	</body>
 </html>
 

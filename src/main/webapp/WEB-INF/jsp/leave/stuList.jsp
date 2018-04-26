@@ -65,10 +65,10 @@
 							</td>
 							<td width="15%">
 								<a href="${pageContext.request.contextPath}/leave/edit?id=${s.id }" title="修改">
-									<img src="${pageContext.request.contextPath}/style/images/edit.png" border="0" style="CURSOR: hand;margin-top: -8px;">
+									<img src="images/edit.png" border="0" style="CURSOR: hand;margin-top: -8px;">
 								</a>
 								<a href="${pageContext.request.contextPath}/leave/delete?id=${s.id }" title="删除" style="margin-left: 20px;">
-									<img src="${pageContext.request.contextPath}/style/images/delete.png" border="0" style="CURSOR: hand;margin-top: -6px;">
+									<img src="images/delete.png" border="0" style="CURSOR: hand;margin-top: -6px;">
 								</a>
 							</td>
 						</tr>
@@ -78,9 +78,9 @@
 	</div>
   </body>
   
-  <script type="text/javascript" src="${pageContext.request.contextPath}/style/js/jquery-1.9.0.min.js"></script>
-  <script type="text/javascript" src="${pageContext.request.contextPath}/style/js/function.js"></script>
-  <script type="text/javascript" src="${pageContext.request.contextPath}/style/js/jquery.blockUI.js"></script>
+  <script type="text/javascript" src="webjars/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="css/style/js/function.js"></script>
+  <script type="text/javascript" src="css/style/js/jquery.blockUI.js"></script>
   <script type="text/javascript">
   
   	$(function(){

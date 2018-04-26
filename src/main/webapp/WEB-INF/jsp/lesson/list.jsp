@@ -61,7 +61,7 @@
 							<td width="15%">${c.time }</td>
 							<td width="30%">
 								<a href="${pageContext.request.contextPath}/lesson/chosed?id=${c.id }" title="查看授课学生" style="margin-right: 20px;">
-									<img src="images/people.png" width="22px" height="22px" border="0" style="CURSOR: hand;margin-top: -5px;">
+									<img src="/resources/static/images/people.png" width="22px" height="22px" border="0" style="CURSOR: hand;margin-top: -5px;">
 								</a>
 								<a href="${pageContext.request.contextPath}/lesson/edit?id=${c.id }" title="修改课程信息">
 									<img src="images/edit.png" border="0" style="CURSOR: hand;margin-top: -8px;">
@@ -77,9 +77,9 @@
 	</div>
   </body>
   
-  <script type="text/javascript" src="${servletContext.request.contextPath}/style/js/jquery-1.9.0.min.js"></script>
-  <script type="text/javascript" src="${servletContext.request.contextPath}/style/js/function.js"></script>
-  <script type="text/javascript" src="${servletContext.request.contextPath}/style/js/jquery.blockUI.js"></script>
+  <script type="text/javascript" src="webjars/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="css/style/js/function.js"></script>
+  <script type="text/javascript" src="css/style/js/jquery.blockUI.js"></script>
   <script type="text/javascript">
   
   	$(function(){

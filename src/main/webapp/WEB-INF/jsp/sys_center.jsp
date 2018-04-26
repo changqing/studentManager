@@ -9,9 +9,9 @@
 <head>
 	<title>学生信息管理系统</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="${pageContext.request.contextPath}/css/style/css/bootstrap.css" />
-	<script type="text/javascript" src="${pageContext.request.contextPath}/css/style/js/jquery-1.9.0.min.js"></script>
-	<script type="text/javascript" src="${pageContext.request.contextPath}/css/style/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="webjars/bootstrap/3.3.7/css/bootstrap.css" />
+	<script type="text/javascript" src="webjars/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<style type="text/css">
 		.header { width: 100%; height: 50px; background-color: #A4E5AF;}
 		#sysName {display: inline-block;margin: 20px 0 0 20px;color: rgb(0,136,204); font-style: italic;}

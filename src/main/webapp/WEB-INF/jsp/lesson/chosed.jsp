@@ -73,9 +73,9 @@
 	</div>
   </body>
   
-  <script type="text/javascript" src="${pageContext.request.contextPath}/style/js/jquery-1.9.0.min.js"></script>
-  <script type="text/javascript" src="${pageContext.request.contextPath}/style/js/function.js"></script>
-  <script type="text/javascript" src="${pageContext.request.contextPath}/style/js/jquery.blockUI.js"></script>
+  <script type="text/javascript" src="css/style/js/jquery-1.9.0.min.js"></script>
+  <script type="text/javascript" src="css/style/js/function.js"></script>
+  <script type="text/javascript" src="css/style/js/jquery.blockUI.js"></script>
   <script type="text/javascript">
   
   	function score(id) {

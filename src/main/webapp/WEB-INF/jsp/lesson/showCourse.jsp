@@ -5,8 +5,8 @@
     <title>信息展示</title>
 	<meta http-equiv="pragma" content="no-cache">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="${pageContext.request.contextPath}/style/css/bootstrap.css" />
-	<script type="text/javascript" src="${pageContext.request.contextPath}/style/js/jquery-1.9.0.min.js"></script>
+	<link rel="stylesheet" href="webjars/bootstrap/3.3.7/css/bootstrap.css" />
+	<script type="text/javascript" src="webjars/jquery/1.9.1/jquery.min.js"></script>
 	<script type="text/javascript" src="${pageContext.request.contextPath}/js/highcharts.js"></script>
 	<script type="text/javascript" src="${pageContext.request.contextPath}/js/exporting.js"></script>
 	<script type="text/javascript" src="${pageContext.request.contextPath}/js/highcharts-zh_CN.js"></script>

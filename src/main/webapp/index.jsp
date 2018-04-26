@@ -1,5 +1,8 @@
 <%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+
+
 <!DOCTYPE html>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,14 +23,13 @@
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 	<link rel="shortcut icon" href="favicon.ico">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="${pageContext.request.contextPath }/css/bootstrap.min.css">
-	<link rel="stylesheet" href="${pageContext.request.contextPath }/css/animate.css">
-	<link rel="stylesheet" href="${pageContext.request.contextPath }/css/style.css">
+	<link rel="stylesheet" type="text/css" href="webjars/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<!-- Modernizr JS -->
 	<script src="${pageContext.request.contextPath }/js/modernizr-2.6.2.min.js"></script>
 	</head>
 	<body>
-
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
@@ -73,13 +75,13 @@
 		</div>
 	
 	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
+	<script src="webjars/jquery/1.9.1/jquery.min.js"></script>
 	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
+	<script src="webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<!-- Placeholder -->
-	<script src="js/jquery.placeholder.min.js"></script>
+	<script src="css/style/js/jquery.placeholder.min.js"></script>
 	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="css/style/js/jquery.waypoints.min.js"></script>
 	<!-- Main JS -->
 	<script src="js/main.js"></script>
 	</body>

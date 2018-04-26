@@ -9,7 +9,7 @@
 <head>
 	<title>学生信息管理系统</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="${pageContext.request.contextPath}/css/style/css/bootstrap.css" />
+	<link rel="stylesheet" href="webjars/bootstrap/3.3.7/css/bootstrap.css" />
 	<style type="text/css">
 		.left {height: 100%;background: rgb(247,247,247);}
 		div.sdmenu{ font-size:12px;background:#ccc;color:#fff;}
