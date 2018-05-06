@@ -25,7 +25,7 @@
 		
 		<c:forEach items="${list }" var="n" varStatus="st">
 			<div class="notice">
-				<h4 class="title">${st.index+1 }、 ${n.title }<span class="t"><fmt:formatDate value="${n.publishTime }" pattern="yyyy-MM-dd HH:mm:ss"/></span></h4>
+				<h4 class="title">${st.index+1 }、 ${n.title }<span class="t"><fmt:formatDate value="${n.publishtime }" pattern="yyyy-MM-dd HH:mm:ss"/></span></h4>
 				<p class="content">${n.content }</p>
 			</div>
 			

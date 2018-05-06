@@ -46,7 +46,7 @@ public class NoticeController {
 	}
 	@RequestMapping("save")
 	public String save(Notice notice, HttpSession session) {
-		notice.setPublishTime(new Date());
+		notice.setPublishtime(new Date());
 		Teacher teacher = (Teacher) session.getAttribute("loginUser");
 		notice.setTid(teacher.getId());
 		notice.setTname(teacher.getTruename());
@@ -66,9 +66,9 @@ public class NoticeController {
 		String t = request.getParameter("t");
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		try {
-			notice.setPublishTime(sdf.parse(t));
+			notice.setPublishtime(sdf.parse(t));
 		} catch (ParseException e) {
-			notice.setPublishTime(new Date());
+			notice.setPublishtime(new Date());
 		}
 		noticeDao.save(notice);
 		return "redirect:/notice/list";

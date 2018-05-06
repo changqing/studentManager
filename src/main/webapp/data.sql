@@ -71,5 +71,18 @@ create table t_leave (
   content VARCHAR(45),
   status VARCHAR(45)
 );
-INSERT INTO t_leave(sid, sname, title, content, status) VALUES (1, '张三', '请假申请', '两天', '带批');
-INSERT INTO t_leave(sid, sname, title, content, status) VALUES (2, '李四', '请假申请', '1天', '批准');
+INSERT INTO t_leave(sid, sname, title, content, status) VALUES (1, '张三', '请假申请', '两天', '待批');
+INSERT INTO t_leave(sid, sname, title, content, status) VALUES (2, '李四', '请假申请', '一天', '批准');
+
+drop table if exists t_notice;
+create table t_notice (
+  id int primary key auto_increment,
+  title varchar(45),
+  content VARCHAR(45),
+  tid int,
+  tname VARCHAR(45),
+  publishtime TIMESTAMP
+);
+INSERT INTO t_notice(title, content, tid, tname, publishtime) VALUES ('考试通知', '5月28日举行其中考试', 124, '张老师', '2018-05-03 00:00:01');
+INSERT INTO t_notice(title, content, tid, tname, publishtime) VALUES ('放假通知', '6月1日放假', 125, '李老师', '2018-05-24 00:00:01');
+

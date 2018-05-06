@@ -16,7 +16,7 @@ public class Notice implements Serializable {
 	private String content;
 	private Integer tid;
 	private String tname;
-	private Date publishTime;
+	private Date publishtime;
 	
 	@Id
 	@GeneratedValue(strategy= GenerationType.IDENTITY)
@@ -53,11 +53,11 @@ public class Notice implements Serializable {
 	
 
 	@Type(type="timestamp")
-	public Date getPublishTime() {
-		return publishTime;
+	public Date getPublishtime() {
+		return publishtime;
 	}
-	public void setPublishTime(Date publishTime) {
-		this.publishTime = publishTime;
+	public void setPublishtime(Date publishTime) {
+		this.publishtime = publishtime;
 	}
 
 }

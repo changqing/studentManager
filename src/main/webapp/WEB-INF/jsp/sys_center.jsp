@@ -29,7 +29,7 @@
 		<div class="header-right">
 			<i class="icon-user icon-white"></i> <a href="javascript:void(0)">您好，${loginUser.username }</a> &nbsp;&nbsp;
 			<i class="icon-question-sign icon-white"></i> <a href="javascript:void(0)">帮助</a> &nbsp;&nbsp;
-			<i class="icon-off icon-white"></i> <a id="modal-973558" href="#modal-container-973558" role="button" data-toggle="modal">注销</a>
+			<i class="icon-off icon-white"></i> <a id="modal-973558" href="${pageContext.request.contextPath}/logout" role="button" data-toggle="modal">注销</a>
 			<div id="modal-container-973558" class="modal hide fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:300px; margin-left:-150px; top:30%">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"aria-hidden="true">×</button>
