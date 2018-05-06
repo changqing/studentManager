@@ -60,7 +60,7 @@
 							<td width="10%">${st.index + 1 }</td>
 							<td width="20%" style="color: #f66;font-weight: bold;">${s.title }</td>
 							<td width="40%"><span style="display: inline-block;width: 400px;overflow: hidden;" title="${s.content }">${s.content }</span></td>
-							<td width="15%"><fmt:formatDate value="${s.publishTime }" pattern="yyyy-MM-dd HH:mm:ss"/></td>
+							<td width="15%"><fmt:formatDate value="${s.publishtime }" pattern="yyyy-MM-dd HH:mm:ss"/></td>
 							<td width="15%">
 								<a href="${pageContext.request.contextPath}/notice/edit?id=${s.id }" title="修改通知信息">
 									<img src="${pageContext.request.contextPath}/style/images/edit.png" border="0" style="CURSOR: hand;margin-top: -8px;">

@@ -57,7 +57,7 @@ public class Notice implements Serializable {
 		return publishtime;
 	}
 	public void setPublishtime(Date publishTime) {
-		this.publishtime = publishtime;
+		this.publishtime = publishTime;
 	}
 
 }
