@@ -71,8 +71,8 @@ create table t_leave (
   content VARCHAR(45),
   status VARCHAR(45)
 );
-INSERT INTO t_leave(sid, sname, title, content, status) VALUES (1, '张三', '请假申请', '两天', '待批');
-INSERT INTO t_leave(sid, sname, title, content, status) VALUES (2, '李四', '请假申请', '一天', '批准');
+INSERT INTO t_leave(sid, sname, title, content, status) VALUES (1, '张三', '请假申请', '两天', '0');
+INSERT INTO t_leave(sid, sname, title, content, status) VALUES (2, '李四', '请假申请', '一天', '1');
 
 drop table if exists t_notice;
 create table t_notice (
