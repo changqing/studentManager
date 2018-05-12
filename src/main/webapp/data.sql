@@ -56,10 +56,10 @@ create table t_stulesson (
   address VARCHAR(45),
   time VARCHAR(45)
 );
-INSERT INTO t_stulesson(sid, sname, lid, lname, tid, tname, score, address, time) VALUES (20141, '张三', 1, '程序语言设计', 4211, '张老师', 85,'16号教学楼', '周一第一、二节课' );
-INSERT INTO t_stulesson(sid, sname, lid, lname, tid, tname, score, address, time) VALUES (20142, '李四', 2, '数据结构', 4212, '李老师', 79, '15号教学楼', '周二第三、四节课');
-INSERT INTO t_stulesson(sid, sname, lid, lname, tid, tname, score, address, time) VALUES (20143, '张三', 3, '模拟电路', 4213, '刘老师', 80, '15号教学楼', '周三第五、六节课');
-INSERT INTO t_stulesson(sid, sname, lid, lname, tid, tname, score, address, time) VALUES (20144, '李四', 4, '数字电路', 4214, '陈老师', 86, '15号教学楼', '周四第五、六节课');
+INSERT INTO t_stulesson(sid, sname, lid, lname, tid, tname, score, address, time) VALUES (1, '张三', 1, '程序语言设计', 4211, '张老师', 85,'16号教学楼', '周一第一、二节课' );
+INSERT INTO t_stulesson(sid, sname, lid, lname, tid, tname, score, address, time) VALUES (2, '李四', 2, '数据结构', 4212, '李老师', 79, '15号教学楼', '周二第三、四节课');
+INSERT INTO t_stulesson(sid, sname, lid, lname, tid, tname, score, address, time) VALUES (3, '张三', 3, '模拟电路', 4213, '刘老师', 80, '15号教学楼', '周三第五、六节课');
+INSERT INTO t_stulesson(sid, sname, lid, lname, tid, tname, score, address, time) VALUES (4, '李四', 4, '数字电路', 4214, '陈老师', 86, '15号教学楼', '周四第五、六节课');
 
 
 drop table if exists t_leave;
