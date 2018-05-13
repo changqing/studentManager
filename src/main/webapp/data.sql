@@ -24,9 +24,9 @@ create table t_student (
   phone  varchar(45),
   email varchar(45)
 );
-INSERT INTO t_student(username, password, truename, sex, phone, email) VALUES ('201421113001', '123456', '张三', '男', '16666666666', '980777047@qq.com');
-INSERT INTO t_student(username, password, truename, sex, phone, email) VALUES ('201421113002', '666666', '李四', '女', '18888888888', '777766655@qq.com');
-INSERT INTO t_student(username, password, truename, sex, phone, email) VALUES ('201421113003', '888888', '刘五', '男', '17777777777', '999988877@qq.com');
+INSERT INTO t_student(username, password, truename, sex, phone, email) VALUES ('201421113001', '123456', 'Hwt', '男', '16666666666', '980777047@qq.com');
+INSERT INTO t_student(username, password, truename, sex, phone, email) VALUES ('201421113002', '666666', 'Wry', '女', '18888888888', '777766655@qq.com');
+INSERT INTO t_student(username, password, truename, sex, phone, email) VALUES ('201421113003', '888888', 'Fss', '男', '17777777777', '999988877@qq.com');
 
 drop table if exists t_teacher;
 create table t_teacher (
@@ -57,9 +57,9 @@ create table t_stulesson (
   time VARCHAR(45)
 );
 INSERT INTO t_stulesson(sid, sname, lid, lname, tid, tname, score, address, time) VALUES (1, '张三', 1, '程序语言设计', 4211, '张老师', 85,'16号教学楼', '周一第一、二节课' );
-INSERT INTO t_stulesson(sid, sname, lid, lname, tid, tname, score, address, time) VALUES (2, '李四', 2, '数据结构', 4212, '李老师', 79, '15号教学楼', '周二第三、四节课');
-INSERT INTO t_stulesson(sid, sname, lid, lname, tid, tname, score, address, time) VALUES (3, '张三', 3, '模拟电路', 4213, '刘老师', 80, '15号教学楼', '周三第五、六节课');
-INSERT INTO t_stulesson(sid, sname, lid, lname, tid, tname, score, address, time) VALUES (4, '李四', 4, '数字电路', 4214, '陈老师', 86, '15号教学楼', '周四第五、六节课');
+INSERT INTO t_stulesson(sid, sname, lid, lname, tid, tname, score, address, time) VALUES (1, '张三', 2, '数据结构', 4212, '李老师', 79, '15号教学楼', '周二第三、四节课');
+INSERT INTO t_stulesson(sid, sname, lid, lname, tid, tname, score, address, time) VALUES (1, '张三', 3, '模拟电路', 4213, '刘老师', 80, '15号教学楼', '周三第五、六节课');
+INSERT INTO t_stulesson(sid, sname, lid, lname, tid, tname, score, address, time) VALUES (1, '张三', 4, '数字电路', 4214, '陈老师', 86, '15号教学楼', '周四第五、六节课');
 
 
 drop table if exists t_leave;
