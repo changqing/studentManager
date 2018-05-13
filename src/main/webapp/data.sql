@@ -56,10 +56,10 @@ create table t_stulesson (
   address VARCHAR(45),
   time VARCHAR(45)
 );
-INSERT INTO t_stulesson(sid, sname, lid, lname, tid, tname, score, address, time) VALUES (1, '张三', 1, '程序语言设计', 4211, '张老师', 85,'16号教学楼', '周一第一、二节课' );
-INSERT INTO t_stulesson(sid, sname, lid, lname, tid, tname, score, address, time) VALUES (1, '张三', 2, '数据结构', 4212, '李老师', 79, '15号教学楼', '周二第三、四节课');
-INSERT INTO t_stulesson(sid, sname, lid, lname, tid, tname, score, address, time) VALUES (1, '张三', 3, '模拟电路', 4213, '刘老师', 80, '15号教学楼', '周三第五、六节课');
-INSERT INTO t_stulesson(sid, sname, lid, lname, tid, tname, score, address, time) VALUES (1, '张三', 4, '数字电路', 4214, '陈老师', 86, '15号教学楼', '周四第五、六节课');
+INSERT INTO t_stulesson(sid, sname, lid, lname, tid, tname, score, address, time) VALUES (1, 'Hwt', 1, '程序语言设计', 4211, '张老师', 85,'16号教学楼', '周一第一、二节课' );
+INSERT INTO t_stulesson(sid, sname, lid, lname, tid, tname, score, address, time) VALUES (1, 'Hwt', 2, '数据结构', 4212, '李老师', 79, '15号教学楼', '周二第三、四节课');
+INSERT INTO t_stulesson(sid, sname, lid, lname, tid, tname, score, address, time) VALUES (1, 'Hwt', 3, '模拟电路', 4213, '刘老师', 80, '15号教学楼', '周三第五、六节课');
+INSERT INTO t_stulesson(sid, sname, lid, lname, tid, tname, score, address, time) VALUES (1, 'Hwt', 4, '数字电路', 4214, '陈老师', 86, '15号教学楼', '周四第五、六节课');
 
 
 drop table if exists t_leave;
@@ -71,8 +71,8 @@ create table t_leave (
   content VARCHAR(45),
   status VARCHAR(45)
 );
-INSERT INTO t_leave(sid, sname, title, content, status) VALUES (1, '张三', '请假申请', '两天', '0');
-INSERT INTO t_leave(sid, sname, title, content, status) VALUES (2, '李四', '请假申请', '一天', '1');
+INSERT INTO t_leave(sid, sname, title, content, status) VALUES (1, 'Hwt', '请假申请', '两天', '0');
+INSERT INTO t_leave(sid, sname, title, content, status) VALUES (2, 'Wry', '请假申请', '一天', '1');
 
 drop table if exists t_notice;
 create table t_notice (
